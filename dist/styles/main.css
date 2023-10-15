@@ -1,0 +1,59 @@
+.logo {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px auto;
+  padding: 0px 0px 5px 0px;
+  width: 50%;
+  display: inline;
+}
+
+.logo1, .logo2 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#welcome {
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  background-image: linear-gradient(to right, #ff00b4, #ff0064, #ff0000);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.pics {
+  text-align: center;
+}
+
+footer {
+  background-image: linear-gradient(#0044ff, white);
+  padding: 20px 0;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: #cc00ff;
+}
+
+/*# sourceMappingURL=main.css.map */

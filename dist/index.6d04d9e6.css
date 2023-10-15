@@ -1,0 +1,59 @@
+.logo {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 0 5px;
+  display: inline;
+}
+
+.logo1, .logo2 {
+  background-color: #000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#welcome {
+  text-align: center;
+}
+
+header {
+  color: #fff;
+  background-image: linear-gradient(to right, #ff00b4, #ff0064, red);
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.pics {
+  text-align: center;
+}
+
+footer {
+  background-image: linear-gradient(#04f, #fff);
+  padding: 20px 0;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  min-height: 200px;
+  padding: 50px 0;
+}
+
+.navbar {
+  background-color: #c0f;
+}
+
+/*# sourceMappingURL=index.6d04d9e6.css.map */
