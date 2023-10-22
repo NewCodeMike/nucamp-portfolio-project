@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" />
+    <link rel="stylesheet" href="./dist/styles/main.css" />
+    <title>Contact</title>
+  </head>
+  
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo1" src="./src/assets/images/controller.png" alt="WTG Logo" />
+        <h1>WTG: We The Gamers</h1>
+        <img class="logo2" src="./src/assets/images/controller.png" alt="WTG Logo" />
+      </div>
+    </header>
+
+    <main>
+      <nav class="navbar bg-primary navbar-expand-sm navbar-dark sticky-top navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="https://pbs.twimg.com/profile_images/1182338336616308737/imdekIHF_400x400.jpg" class="logox" alt="Logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="wtgNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="wtgNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html"><i class="fa-solid fa-house fa-lg"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./games.html"><i class="fa-solid fa-gamepad fa-lg"></i> Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="fa-solid fa-address-card fa-lg"></i> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- breadcrumb -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">Contact</li>
+            </ol>
+            <h2>Looking For Group Request Form</h2>
+            <hr />
+            <h3>Enter your info, along with a game and time you want to meetup to play.</h3>
+            <h6>Enter any friend codes for your desired platforms in the "Details" section.</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- feedback form -->
+        <div class="row row-content">
+            <div class="col-12">
+              <h2>Your Info</h2>
+            </div>
+            <div class="col-md-10">
+              <form>
+                <div class="row mb-3">
+                  <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                  <div class="col-md-10">
+                    <input class="form-control" type="text" id="firstName" name="firstName" placeholder="First Name (optional)" />
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="gamertag" class="col-md-2 col-form-label">Gamertag(s)</label>
+                  <div class="col-md-10">
+                    <input class="form-control" type="text" id="gamertag" name="gamertag" placeholder="Gamertag(s)" />
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <label for="discordName" class="col-md-2 col-form-label">Discord Name</label>
+                  <div class="col-md-10">
+                    <input class="form-control" type="text" id="discordName" name="discordName" placeholder="Discord Name" />
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <label for="gameChoice" class="col-md-2 col-form-label">Choose a game:</label>
+                  <div class="col-1">
+                    <select name="gameChoice" id="gameChoice">
+                      <option>Select a Game</option>
+                      <option>New World</option>
+                      <option>Overwatch 2</option>
+                      <option>Last Train Outta' Worm Town</option>
+                      <option>Diablo III</option>
+                      <option>Apex Legends</option>
+                      <option>Dead by Daylight</option>
+                      <option>Call of Duty</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <label for="date" class="col-md-2 col-form-label">Date to play</label>
+                  <div class="col-md-2">
+                    <input class="form-control" type="date" id="date" name="date" />
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <div class="col offset-md-2">
+                    Would you like to make this LFG request active now?
+                    <div class="form-check form-check-inline">
+                      <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                      <label for="contactYes" class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                      <label for="contactNo" class="form-check-label">No</label>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <label for="info" class="col-md-2 col-form-label">Details</label>
+                  <div class="col-md-10">
+                    <textarea class="form-control" id="info" name="info" rows="8"></textarea>
+                  </div>
+                </div>
+  
+                <div class="row mb-3">
+                  <div class="col-md-3">
+                    <button type="submit" class="btn btn-primary">Submit Info</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+    </main>
+
+    <footer>&copy; 2024 WTG/WTS</footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

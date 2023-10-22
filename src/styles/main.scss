@@ -1,5 +1,15 @@
 .logo {
     text-align: center;
+
+}
+
+.logox {
+    border-radius: 20px;
+    height: 50px;
+}
+
+body {
+    background-color: #f0f0f0;
 }
 
 h1 {
@@ -10,8 +20,24 @@ h1 {
     display: inline;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+.gameChoice {
+    float: left;
+    left: 0;
+}
+
 .logo1, .logo2 {
-    background-color: black;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -23,7 +49,8 @@ h1 {
 
 header {
     padding: 30px;
-    background-image: linear-gradient(to right, #ff00b4, #ff0064, #ff0000);
+    background: rgb(198,198,198);
+    background: linear-gradient(90deg, rgba(198,198,198,1) 0%, rgba(136,136,136,1) 35%, rgba(197,37,245,1) 100%);
     color: white;
 }
 
@@ -35,19 +62,28 @@ li {
     text-align: center;
     padding: 0;
     list-style: none;
-
 }
 
-.pics {
+.img2  {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+footer {
+    background: linear-gradient(90deg, rgba(198,198,198,1) 0%, rgba(136,136,136,1) 35%, rgba(197,37,245,1) 100%);
+    padding: 20px 0;
     text-align: center;
 }
 
-footer {
-    background-image: linear-gradient(#0044ff, white);
-    padding: 20px 0;
-}
 
 .row-content {
+    text-align: right;
+    padding-right: o;
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
@@ -57,6 +93,9 @@ footer {
     background-color: #cc00ff;
 }
 
-// .navbar-custom {
-//     background-image: linear-gradient(to right, #00ffcc, #009787, #004c49);
-// }
+.navbar-custom {
+    background: linear-gradient(90deg, rgba(198,198,198,1) 0%, rgba(136,136,136,1) 35%, rgba(197,37,245,1) 100%);
+}
+
+
+@import 'games';
